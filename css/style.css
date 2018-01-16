@@ -1,0 +1,111 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.arrow-left{
+  position: absolute;
+  top: 22px;
+  left: 16px;
+  width: 100px;
+  display: inline-block;
+}
+
+.center{
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 16px;
+  transform: translate(0, -50%);
+}
+
+.time {
+  position: relative;
+  display: inline-block;
+  line-height: 1.3em;
+  width: 18%;
+  text-align: right;
+  color: #283be0;
+}
+
+.resumes {
+  line-height: 1.5em;
+  position: relative;
+  display: inline-block;
+  width: 18%;
+  text-align: right;
+  color: #c11b1b;
+}
+
+.line {
+  border: 1.5px solid #283be0;
+  font-size: 2.5em;
+  margin-left: 16px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 17%
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.content {
+  line-height: 1.5em;
+  padding: 10px 0 10px 15px;
+  display: inline-block;
+  width: 45%
+}
+
+.location {
+  background-color: #dfdfdf;
+  border-bottom: 1.3px solid #929292;
+}
+
+.location:hover {
+  background-color: #b4b4b4;
+}
+
+nav {
+  background-color: #000;
+  padding: 18px 18px 18px 20px;
+  position: relative;
+  width: 400px;
+}
+
+.restaurant-list {
+  width: 100%;
+}
