@@ -6,4 +6,4 @@ The first challenge I've faced is that how to display the content at the right p
 
 The next question is the numbers of the bus lines are not line up, even though they are left aligned. Since they started with different numbers and letters, it's hard to make them really aligned. Therefor, I set borders for those numbers, and center them. It is not only for aligning, but making them more like bus routes in real life.
 
-I have also use different color to reveal available routes and disabled routes. So user has a clear view of which routes are out of service.
+I have also used different color to reveal available routes and disabled routes. So user has a clear view of which routes are out of service.
