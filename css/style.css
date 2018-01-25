@@ -5,7 +5,7 @@
 body {
   background-color: #ffffff;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -29,13 +29,13 @@ nav {
   background-color: #505050;
   padding: 18px 18px 18px 20px;
   position: fixed;
-  width: 400px;
+  width: 420px;
   z-index: 100;
 }
 
 .arrow-left{
   position: absolute;
-  top: 21px;
+  top: 15px;
   left: 16px;
   width: 10%;
   display: inline-block;
@@ -44,7 +44,7 @@ nav {
 .map{
   color: #fff;
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding-left: 15px;
   width: 20%;
 }
@@ -52,7 +52,7 @@ nav {
 .center {
   color: #fff;
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: "Chalkboard", "baghdad", sans-serif;
   text-align: center;
   width: 60%;
@@ -60,7 +60,7 @@ nav {
 
 .star {
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: 0px;
   width: 10%;
   display: inline-block;
@@ -73,14 +73,14 @@ nav {
 
 .container {
   margin: 0 auto;
-  width: 400px;
+  width: 420px;
 }
 
 .content {
   line-height: 1.5em;
-  padding: 10px 0 10px 15px;
+  padding: 15px 0 15px 15px;
   display: inline-block;
-  width: 45%
+  width: 48%
 }
 
 .line {
@@ -99,7 +99,7 @@ nav {
   position: relative;
   display: inline-block;
   line-height: 1.3em;
-  width: 18%;
+  width: 15%;
   text-align: right;
   color: #283be0;
 }
@@ -113,15 +113,29 @@ nav {
   color: #c11b1b;
 }
 
+.resume-content{
+  line-height: 1.5em;
+  padding: 15px 0 15px 15px;
+  display: inline-block;
+  width: 45%;
+}
+
+.na {
+  color: #c11b1b;
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: right;
+  width: 15%;
+}
+
 .arrow {
   display: inline-block;
   margin-left: 22px;
   margin-right: 16px;
-  transform: translate(0, -50%);
+  transform: translate(0, -20%);
 }
 
 .location {
-  background-color: #ececec;
   border-bottom: 1.3px solid #929292;
 }
 
