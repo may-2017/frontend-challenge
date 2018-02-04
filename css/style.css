@@ -53,7 +53,7 @@ nav {
   color: #fff;
   display: inline-block;
   font-size: 1.2em;
-  font-family: "Chalkboard", "baghdad", sans-serif;
+  font-family: "Open Sans", "Lato", sans-serif;
   text-align: center;
   width: 60%;
 }
@@ -84,14 +84,13 @@ nav {
 }
 
 .line {
-  border: 1.5px solid #283be0;
   font-size: 2.5em;
   margin-left: 16px;
   padding-top: 2.5px;
   padding-bottom: 2.5px;
   position: relative;
   display: inline-block;
-  text-align: center;
+  text-align: left;
   width: 17%;
 }
 
@@ -135,10 +134,13 @@ nav {
   transform: translate(0, -20%);
 }
 
-.location {
-  border-bottom: 1.3px solid #929292;
-}
-
 .location:hover {
   background-color: #c0c0c0;
+}
+
+.divider {
+  width: 404px;
+  height: 1px;
+  background: #e2e2e2;
+  margin-left: 16px;
 }
