@@ -27,6 +27,7 @@ h5 {
 
 nav {
   background-color: #505050;
+  margin-top: 19px;
   padding: 18px 18px 18px 20px;
   position: fixed;
   width: 420px;
@@ -134,6 +135,10 @@ nav {
   transform: translate(0, -20%);
 }
 
+.location {
+  padding-top: 20px;
+}
+
 .location:hover {
   background-color: #c0c0c0;
 }
@@ -143,4 +148,9 @@ nav {
   height: 1px;
   background: #e2e2e2;
   margin-left: 16px;
+}
+
+.status-bar {
+  position: fixed;
+  z-index: 100;
 }
